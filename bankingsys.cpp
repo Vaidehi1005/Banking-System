@@ -7,7 +7,7 @@ class BankAccount{
     private:
     double balance;//ketlu balance che
     public:
-    BankAccount(double initialBalance=0.0):balance(initialBalance){}//intial balance 0 che
+    BankAccount(double initialBalance=0.0):balance(initialBalance){}//intial balance 0 che 
     //Function to deposit/add money into account
     void deposit(double amount){
         balance+=amount;
